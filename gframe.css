@@ -1,0 +1,622 @@
+/* GENERAL GRID STYLES  */
+body {
+    margin: 0 auto;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.row {
+    clear: both;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+/* FULL WIDTH ROW COLUMNS */
+.row.full-width {
+	width: 100%;
+	position: relative;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* WIDTH OF 1 COLUMN IN THE 12 COLUMN LAYOUT WITHOUT ANY PADDING is (100/12)% = 8.333333333333333%  */
+.row.full-width .col.onxs-1, .row.full-width .col.onsm-1, .row.full-width .col.onmd-1, .row.full-width .col.onlg-1 {
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    width: 8.333333333333333%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.row.full-width .col.onxs-2, .row.full-width .col.onsm-2, .row.full-width .col.onmd-2, .row.full-width .col.onlg-2 {
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    width: calc(8.333333333333333%*2);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.row.full-width .col.onxs-3, .row.full-width .col.onsm-3, .row.full-width .col.onmd-3, .row.full-width .col.onlg-3 {
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    width: calc(8.333333333333333%*3);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.row.full-width .col.onxs-4, .row.full-width .col.onsm-4, .row.full-width .col.onmd-4, .row.full-width .col.onlg-4 {
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    width: calc(8.333333333333333%*4);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.row.full-width .col.onxs-5, .row.full-width .col.onsm-5, .row.full-width .col.onmd-5, .row.full-width .col.onlg-5 {
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    width: calc(8.333333333333333%*5);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.row.full-width .col.onxs-6, .row.full-width .col.onsm-6, .row.full-width .col.onmd-6, .row.full-width .col.onlg-6 {
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    width: calc(8.333333333333333%*6);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.row.full-width .col.onxs-7, .row.full-width .col.onsm-7, .row.full-width .col.onmd-7, .row.full-width .col.onlg-7 {
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    width: calc(8.333333333333333%*7);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.row.full-width .col.onxs-8, .row.full-width .col.onsm-8, .row.full-width .col.onmd-8, .row.full-width .col.onlg-8 {
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    width: calc(8.333333333333333%*8);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.row.full-width .col.onxs-9, .row.full-width .col.onsm-9, .row.full-width .col.onmd-9, .row.full-width .col.onlg-9 {
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    width: calc(8.333333333333333%*9);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.row.full-width .col.onxs-10, .row.full-width .col.onsm-10, .row.full-width .col.onmd-10, .row.full-width .col.onlg-10 {
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    width: calc(8.333333333333333%*10);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.row.full-width .col.onxs-11, .row.full-width .col.onsm-11, .row.full-width .col.onmd-11, .row.full-width .col.onlg-11 {
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    width: calc(8.333333333333333%*11);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.row.full-width .col.onxs-12, .row.full-width .col.onsm-12, .row.full-width .col.onmd-12, .row.full-width .col.onlg-12 {
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    width: calc(8.333333333333333%*12);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/* END OF FULL WIDTH ROW COLUMNS */
+
+
+/* SPACED ROW COLUMNS */
+.row.spaced {
+	overflow: hidden;
+	width: 100%;
+	position: relative;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+.row.spaced .col.onxs-1, .row.spaced .col.onsm-1, .row.spaced .col.onmd-1, .row.spaced .col.onlg-1 {
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: calc(8.333333333333333% - 2%);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.row.spaced .col.onxs-2, .row.spaced .col.onsm-2, .row.spaced .col.onmd-2, .row.spaced .col.onlg-2 {
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: calc((8.333333333333333%*2) - 2%);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.row.spaced .col.onxs-3, .row.spaced .col.onsm-3, .row.spaced .col.onmd-3, .row.spaced .col.onlg-3 {
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: calc((8.333333333333333%*3) - 2%);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.row.spaced .col.onxs-4, .row.spaced .col.onsm-4, .row.spaced .col.onmd-4, .row.spaced .col.onlg-4 {
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: calc((8.333333333333333%*4) - 2%);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.row.spaced .col.onxs-5, .row.spaced .col.onsm-5, .row.spaced .col.onmd-5, .row.spaced .col.onlg-5 {
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: calc((8.333333333333333%*5) - 2%);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.row.spaced .col.onxs-6, .row.spaced .col.onsm-6, .row.spaced .col.onmd-6, .row.spaced .col.onlg-6 {
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: calc((8.333333333333333%*6) - 2%);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.row.spaced .col.onxs-7, .row.spaced .col.onsm-7, .row.spaced .col.onmd-7, .row.spaced .col.onlg-7 {
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: calc((8.333333333333333%*7) - 2%);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.row.spaced .col.onxs-8, .row.spaced .col.onsm-8, .row.spaced .col.onmd-8, .row.spaced .col.onlg-8 {
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: calc((8.333333333333333%*8) - 2%);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.row.spaced .col.onxs-9, .row.spaced .col.onsm-9, .row.spaced .col.onmd-9, .row.spaced .col.onlg-9 {
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: calc((8.333333333333333%*9) - 2%);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.row.spaced .col.onxs-10, .row.spaced .col.onsm-10, .row.spaced .col.onmd-10, .row.spaced .col.onlg-10 {
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: calc((8.333333333333333%*10) - 2%);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.row.spaced .col.onxs-11, .row.spaced .col.onsm-11, .row.spaced .col.onmd-11, .row.spaced .col.onlg-11 {
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: calc((8.333333333333333%*11) - 2%);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.row.spaced .col.onxs-12, .row.spaced .col.onsm-12, .row.spaced .col.onmd-12, .row.spaced .col.onlg-12 {
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: calc((8.333333333333333%*12) - 2%);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/* END OF SPACED ROW COLUMNS */
+
+
+/* FLEXBOX CLASS STYLES */
+.flex {
+	display: -webkit-box;      
+	display: -moz-box;         
+	display: -ms-flexbox;      
+	display: -webkit-flex;     
+	display: flex;             
+}
+
+.flex-wrap {
+	-ms-flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.flex.align-center {
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.flex.align-stretch {
+	-webkit-box-align: stretch;
+	-moz-box-align: stretch;
+	-ms-flex-align: stretch;
+	-webkit-align-items: stretch;
+	align-items: stretch;
+}
+
+.flex.align-start {
+	-webkit-box-align: flex-start;
+	-moz-box-align: flex-start;
+	-ms-flex-align: flex-start;
+	-webkit-align-items: flex-start;
+	align-items: flex-start;
+}
+
+.flex.align-end {
+	-webkit-box-align: flex-end;
+	-moz-box-align: flex-end;
+	-ms-flex-align: flex-end;
+	-webkit-align-items: flex-end;
+    align-items: flex-end;
+}
+
+.flex.justify-center {
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+
+.flex.justify-start {
+	-webkit-box-pack: flex-start;
+	-moz-box-pack: flex-start;
+	-ms-flex-pack: flex-start;
+	-webkit-justify-content: flex-start;
+	justify-content: flex-start;
+}
+
+.flex.justify-end {
+	-webkit-box-pack: flex-end;
+	-moz-box-pack: flex-end;
+	-ms-flex-pack: flex-end;
+	-webkit-justify-content: flex-end;
+	justify-content: flex-end;
+}
+
+.flex.justify-around {
+	-webkit-box-pack: space-around;
+	-moz-box-pack: space-around;
+	-ms-flex-pack: space-around;
+	-webkit-justify-content: space-around;
+	justify-content: space-around;
+}
+
+.flex.justify-between {
+	-webkit-box-pack: space-between;
+	-moz-box-pack: space-between;
+	-ms-flex-pack: space-between;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+}
+
+.order-first {
+	-webkit-box-ordinal-group: -1;  
+	-moz-box-ordinal-group: -1;     
+	-ms-flex-order: -1;     
+	-webkit-order: -1;
+	order:-1;
+}
+
+.order-2 {
+	-webkit-box-ordinal-group: 2;  
+	-moz-box-ordinal-group: 2;     
+	-ms-flex-order: 2;     
+	-webkit-order: 2;
+	order: 2;
+}
+
+.order-3 {
+	-webkit-box-ordinal-group: 3;  
+	-moz-box-ordinal-group: 3;     
+	-ms-flex-order: 3;     
+	-webkit-order: 3;
+	order: 3;
+}
+
+.order-4 {
+	-webkit-box-ordinal-group: 4;  
+	-moz-box-ordinal-group: 4;     
+	-ms-flex-order: 4;     
+	-webkit-order: 4;
+	order: 4;
+}
+.order-5 {
+	-webkit-box-ordinal-group: 5;  
+	-moz-box-ordinal-group: 5;     
+	-ms-flex-order: 5;     
+	-webkit-order: 5;
+	order: 5;
+}
+
+.order-6 {
+	-webkit-box-ordinal-group: 6;  
+	-moz-box-ordinal-group: 6;     
+	-ms-flex-order: 6;     
+	-webkit-order: 6;
+	order: 6;
+}
+
+.order-7 {
+	-webkit-box-ordinal-group: 7;  
+	-moz-box-ordinal-group: 7;     
+	-ms-flex-order: 7;     
+	-webkit-order: 7;
+	order: 7;
+}
+
+.order-8 {
+	-webkit-box-ordinal-group: 8;  
+	-moz-box-ordinal-group: 8;     
+	-ms-flex-order: 8;     
+	-webkit-order: 8;
+	order: 8;
+}
+
+.order-9 {
+	-webkit-box-ordinal-group: 9;
+	-moz-box-ordinal-group: 9;     
+	-ms-flex-order: 9;     
+	-webkit-order: 9;
+	order: 9;
+}
+
+.order-10 {
+	-webkit-box-ordinal-group: 10;  
+	-moz-box-ordinal-group: 10;     
+	-ms-flex-order: 10;     
+	-webkit-order: 10;
+	order: 10;
+}
+
+.order-11 {
+	-webkit-box-ordinal-group: 11;  
+	-moz-box-ordinal-group: 11;     
+	-ms-flex-order: 11;     
+	-webkit-order: 11;
+	order: 11;
+}
+
+.order-last {
+	-webkit-box-ordinal-group: 12;  
+	-moz-box-ordinal-group: 12;     
+	-ms-flex-order: 12;     
+	-webkit-order: 12;
+	order: 12;
+}
+/* END OF FLEXBOX CLASS STYLES */
+
+
+
+/* XS SCREEN QUERY  */
+@media screen and  (max-width: 480px) {
+
+    .row-size::after {
+        content: "XS Screen";
+    }
+    
+    
+    /* FULL WIDTH ROW COL ADJUST STYLES */
+    .row.full-width .col.onsm-1, .row.full-width .col.onmd-1, .row.full-width .col.onlg-1, .row.full-width .col.onsm-2, .row.full-width .col.onmd-2, .row.full-width .col.onlg-2, .row.full-width .col.onsm-3, .row.full-width .col.onmd-3, .row.full-width .col.onlg-3, .row.full-width .col.onsm-4, .row.full-width .col.onmd-4, .row.full-width .col.onlg-4, .row.full-width .col.onsm-5, .row.full-width .col.onmd-5, .row.full-width .col.onlg-5, .row.full-width .col.onsm-6, .row.full-width .col.onmd-6, .row.full-width .col.onlg-6, .row.full-width .col.onsm-7, .row.full-width .col.onmd-7, .row.full-width .col.onlg-7, .row.full-width .col.onsm-8, .row.full-width .col.onmd-8, .row.full-width .col.onlg-8, .row.full-width .col.onsm-9, .row.full-width .col.onmd-9, .row.full-width .col.onlg-9, .row.full-width .col.onsm-10, .row.full-width .col.onmd-10, .row.full-width .col.onlg-10, .row.full-width .col.onsm-11, .row.full-width .col.onmd-11, .row.full-width .col.onlg-11, .row.full-width .col.onsm-12, .row.full-width .col.onmd-12, .row.full-width .col.onlg-12 {
+        display: block;
+        float: none;
+        clear: both;
+        width: 100%;
+	}
+    /* END OF FULL WIDTH ROW COL ADJUST STYLES */
+	
+	
+	/* SPACED ROW COL ADJUST STYLES */
+    .row.spaced .col.onsm-1, .row.spaced .col.onmd-1, .row.spaced .col.onlg-1, .row.spaced .col.onsm-2, .row.spaced .col.onmd-2, .row.spaced .col.onlg-2, .row.spaced .col.onsm-3, .row.spaced .col.onmd-3, .row.spaced .col.onlg-3, .row.spaced .col.onsm-4, .row.spaced .col.onmd-4, .row.spaced .col.onlg-4, .row.spaced .col.onsm-5, .row.spaced .col.onmd-5, .row.spaced .col.onlg-5, .row.spaced .col.onsm-6, .row.spaced .col.onmd-6, .row.spaced .col.onlg-6, .row.spaced .col.onsm-7, .row.spaced .col.onmd-7, .row.spaced .col.onlg-7, .row.spaced .col.onsm-8, .row.spaced .col.onmd-8, .row.spaced .col.onlg-8, .row.spaced .col.onsm-9, .row.spaced .col.onmd-9, .row.spaced .col.onlg-9, .row.spaced .col.onsm-10, .row.spaced .col.onmd-10, .row.spaced .col.onlg-10, .row.spaced .col.onsm-11, .row.spaced .col.onmd-11, .row.spaced .col.onlg-11, .row.spaced .col.onsm-12, .row.spaced .col.onmd-12, .row.spaced .col.onlg-12 {
+        display: block;
+        float: none;
+        clear: both;
+        width: calc(100% - 2%);
+    }
+    /* END OF SPACED ROW COL ADJUST STYLES */
+    
+    
+    /* FLEX ADJUST STYLES */
+    .flex .col.onsm-1, .flex .col.onmd-1, .flex .col.onlg-1, .col.onsm-2, .flex .col.onmd-2, .flex .col.onlg-2, .flex .col.onsm-3, .flex .col.onmd-3, .flex .col.onlg-3, .flex .col.onsm-4, .flex .col.onmd-4, .flex .col.onlg-4, .flex .col.onsm-5, .flex .col.onmd-5, .flex .col.onlg-5, .flex .col.onsm-6, .flex .col.onmd-6, .flex .col.onlg-6, .flex .col.onsm-7, .flex .col.onmd-7, .flex .col.onlg-7, .flex .col.onsm-8, .flex .col.onmd-8, .flex .col.onlg-8, .flex .col.onsm-9, .flex .col.onmd-9, .flex .col.onlg-9, .flex .col.onsm-10, .flex .col.onmd-10, .flex .col.onlg-10, .flex .col.onsm-11, .flex .col.onmd-11, .flex .col.onlg-11, .flex .col.onsm-12, .flex .col.onmd-12, .flex .col.onlg-12 {
+        flex: 1;
+    } 
+    /* END OF FLEX ADJUST STYLES */
+
+}
+/* END OF XS SCREEN QUERY  */
+
+/* SM SCREEN QUERY  */
+@media screen and  (min-width: 481px) and (max-width: 768px) {
+
+    .screen-size::after {
+        content: "SM Screen";
+    }
+	
+    
+    /* FULL WIDTH ROW COL ADJUST STYLES */
+    .row.full-width .col.onmd-1, .row.full-width .col.onlg-1, .row.full-width .col.onmd-2, .row.full-width .col.onlg-2, .row.full-width .col.onmd-3, .row.full-width .col.onlg-3, .row.full-width .col.onmd-4, .row.full-width .col.onlg-4, .row.full-width .col.onmd-5, .row.full-width .col.onlg-5, .row.full-width .col.onmd-6, .row.full-width .col.onlg-6, .row.full-width .col.onmd-7, .row.full-width .col.onlg-7, .row.full-width .col.onmd-8, .row.full-width .col.onlg-8, .row.full-width .col.onmd-9, .row.full-width .col.onlg-9, .row.full-width .col.onmd-10, .row.full-width .col.onlg-10, .row.full-width .col.onmd-11, .row.full-width .col.onlg-11, .row.full-width .col.onmd-12, .row.full-width .col.onlg-12 {
+        display: block;
+        float: none;
+        clear: both;
+        width: 100%;
+    }
+    /* END OF FULL WIDTH ROW COL ADJUST STYLES */
+	
+	
+	/* SPACED ROW COL ADJUST STYLES */
+    .row.spaced .col.onmd-1, .row.spaced .col.onlg-1, .row.spaced .col.onmd-2, .row.spaced .col.onlg-2, .row.spaced .col.onmd-3, .row.spaced .col.onlg-3, .row.spaced .col.onmd-4, .row.spaced .col.onlg-4, .row.spaced .col.onmd-5, .row.spaced .col.onlg-5, .row.spaced .col.onmd-6, .row.spaced .col.onlg-6, .row.spaced .col.onmd-7, .row.spaced .col.onlg-7, .row.spaced .col.onmd-8, .row.spaced .col.onlg-8, .row.spaced .col.onmd-9, .row.spaced .col.onlg-9, .row.spaced .col.onmd-10, .row.spaced .col.onlg-10, .row.spaced .col.onmd-11, .row.spaced .col.onlg-11, .row.spaced .col.onmd-12, .row.spaced .col.onlg-12 {
+        display: block;
+        float: none;
+        clear: both;
+        width: calc(100% - 2%);
+    }
+    /* END OF SPACED ROW COL ADJUST STYLES */
+    
+    
+    /* FLEX ROW COL ADJUST STYLES */
+    .flex .col.onmd-1, .flex .col.onlg-1, .flex .col.onmd-2, .flex .col.onlg-2, .flex .col.onmd-3, .flex .col.onlg-3, .flex .col.onmd-4, .flex .col.onlg-4, .flex .col.onmd-5, .flex .col.onlg-5, .flex .col.onmd-6, .flex .col.onlg-6, .flex .col.onmd-7, .flex .col.onlg-7, .flex .col.onmd-8, .flex .col.onlg-8, .flex .col.onmd-9, .flex .col.onlg-9, .flex .col.onmd-10, .flex .col.onlg-10, .flex .col.onmd-11, .flex .col.onlg-11, .flex .col.onmd-12, .flex .col.onlg-12 {
+        flex: 1;
+    }
+    /* END OF FLEX ROW COL ADJUST STYLES */
+
+}
+/* END OF SM SCREEN QUERY  */
+
+/* MD SCREEN QUERY  */
+@media screen and  (min-width: 769px) and (max-width: 1279px) {
+
+    .screen-size::after {
+        content: "MD Screen";
+    }
+	
+    
+    /* FULL WIDTH ROW COL ADJUST STYLES */
+    .row.full-width .col.onlg-1, .row.full-width .col.onxl-1, .row.full-width .col.onlg-2, .row.full-width .col.onxl-2, .row.full-width .col.onlg-3, .row.full-width .col.onxl-3, .row.full-width .col.onlg-4, .row.full-width .col.onxl-4, .row.full-width .col.onlg-5, .row.full-width .col.onxl-5, .row.full-width .col.onlg-6, .row.full-width .col.onxl-6, .row.full-width .col.onlg-7, .row.full-width .col.onxl-7, .row.full-width .col.onlg-8, .row.full-width .col.onxl-8, .row.full-width .col.onlg-9, .row.full-width .col.onxl-9, .row.full-width .col.onlg-10, .row.full-width .col.onxl-10, .row.full-width .col.onlg-11, .row.full-width .col.onxl-11, .row.full-width .col.onlg-12, .row.full-width .col.onxl-12 {
+        display: block;
+        float: none;
+        clear: both;
+        width: 100%;
+	}
+    /* END OF FULL WIDTH ROW COL ADJUST STYLES */
+	
+	
+	/* SPACED ROW COL ADJUST STYLES */
+    .row.spaced .col.onlg-1, .row.spaced .col.onxl-1, .row.spaced .col.onlg-2, .row.spaced .col.onxl-2, .row.spaced .col.onlg-3, .row.spaced .col.onxl-3, .row.spaced .col.onlg-4, .row.spaced .col.onxl-4, .row.spaced .col.onlg-5, .row.spaced .col.onxl-5, .row.spaced .col.onlg-6, .row.spaced .col.onxl-6, .row.spaced .col.onlg-7, .row.spaced .col.onxl-7, .row.spaced .col.onlg-8, .row.spaced .col.onxl-8, .row.spaced .col.onlg-9, .row.spaced .col.onxl-9, .row.spaced .col.onlg-10, .row.spaced .col.onxl-10, .row.spaced .col.onlg-11, .row.spaced .col.onxl-11, .row.spaced .col.onlg-12, .row.spaced .col.onxl-12 {
+        display: block;
+        float: none;
+        clear: both;
+        width: calc(100% - 2%);
+    }
+    /* END OF SPACED ROW COL ADJUST STYLES */
+    
+    
+    /* FLEX ROW COL ADJUST STYLES */
+    .flex .col.onlg-1, .flex .col.onxl-1, .flex .col.onlg-2, .flex .col.onxl-2, .flex .col.onlg-3, .flex .col.onxl-3, .flex .col.onlg-4, .flex .col.onxl-4, .flex .col.onlg-5, .flex .col.onxl-5, .flex .col.onlg-6, .flex .col.onxl-6, .flex .col.onlg-7, .flex .col.onxl-7, .flex .col.onlg-8, .flex .col.onxl-8, .flex .col.onlg-9, .flex .col.onxl-9, .flex .col.onlg-10, .flex .col.onxl-10, .flex .col.onlg-11, .flex .col.onxl-11, .flex .col.onlg-12, .flex .col.onxl-12 {
+        display: block;
+        float: none;
+        clear: both;
+        width: 100%;
+    }
+    /* END OF FLEX ROW COL ADJUST STYLES */
+
+}
+/* END OF MD SCREEN QUERY  */
+
+/* LG SCREEN QUERY  */
+@media screen and  (min-width: 1280px) {
+
+    .screen-size::after {
+        content: "LG Screen";
+    }
+	
+    
+    /* FULL WIDTH ROW COL ADJUST STYLES */
+    .row.full-width .col.onxl-1, .row.full-width .col.onxl-2, .row.full-width .col.onxl-3, .row.full-width .col.onxl-4, .row.full-width .col.onxl-5, .row.full-width .col.onxl-6, .row.full-width .col.onxl-7, .row.full-width .col.onxl-8, .row.full-width .col.onxl-9, .row.full-width .col.onxl-10, .row.full-width .col.onxl-11, .row.full-width .col.onxl-12 {
+        display: block;
+        float: none;
+        clear: both;
+        width: 100%;
+    }
+    /* END OF FULL WIDTH ROW COL ADJUST STYLES */
+	
+	
+	/* SPACED ROW COL ADJUST STYLES */
+    .row.spaced .col.onxl-1, .row.spaced .col.onxl-2, .row.spaced .col.onxl-3, .row.spaced .col.onxl-4, .row.spaced .col.onxl-5, .row.spaced .col.onxl-6, .row.spaced .col.onxl-7, .row.spaced .col.onxl-8, .row.spaced .col.onxl-9, .row.spaced .col.onxl-10, .row.spaced .col.onxl-11, .row.spaced .col.onxl-12 {
+        display: block;
+        float: none;
+        clear: both;
+        width: calc(100% - 2%);
+    }
+    /* END OF SPACED ROW COL ADJUST STYLES */
+    
+    
+    /* FLEX ROW COL ADJUST STYLES */
+    .flex .col.onxl-1, .flex .col.onxl-2, .flex .col.onxl-3, .flex .col.onxl-4, .flex .col.onxl-5, .flex .col.onxl-6, .flex .col.onxl-7, .flex .col.onxl-8, .flex .col.onxl-9, .flex .col.onxl-10, .flex .col.onxl-11, .flex .col.onxl-12 {
+        display: block;
+        float: none;
+        clear: both;
+        width: 100%;
+    }
+    /* END OF FLEX ROW COL ADJUST STYLES */
+
+}
+/* END OF LG SCREEN QUERY  */
